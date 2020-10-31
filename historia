@@ -1,0 +1,143 @@
+ls
+cd ..
+ls
+cd natalia/
+sudo apt-get install github
+sudo apt-get install git
+git
+touch pli.txt
+vim
+sudo apt-get install vim
+vim pli.txt 
+cat pli.txt 
+grep "h" pli.txt 
+grep "." pli.txt 
+mv pli.txt plik.txt
+ls
+grep "." plik.txt 
+touch pl1 pl2 pl3
+ls
+vim pl1
+vim pl2
+vim pl3
+grep "^\d" pl*
+grep "\d" pl*
+grep -P "\d" pl*
+grep -P "^\d" pl*
+vim pl3
+cat pl3
+grep -P "^\d" pl*
+grep "\d"  -P *
+grep "\d*"  -P *
+grep "\d{8}r"  -P *
+touch plikzr
+vim plikzr 
+grep "^.{8}r"  -P *
+vim pl4
+cat pl4
+grep "^999r" pl4 -P
+grep "^999r" pl4 
+/etc/passwd
+cat /etc/passwd
+grep "bash" /etc/passwd
+grep "bash" /etc/passwd -c
+grep "bash" /etc/passwd 
+grep "bash" /etc/passwd -c
+find ./ -maxdepth 1 -mtime -10 -ls
+find ./ -maxdepth 1 -mtime +10 -ls
+find ./ -maxdepth 1 -atime -10 -ls
+find ./ -maxdepth 1 -atime +20 -ls
+find ./  -atime +20 -ls
+find ./  -atime -20 -ls
+find / -name "conf"
+sudo find / -name "*conf*" - type f
+sudo find / -name "*conf*" -type f
+sudo find /etc -not -empty -name "a*"
+sudo find /etc -not  -name "a*"
+git clone https://github.com/natalia787548/natalia.git
+ls
+cd natalia
+ls
+vim zadania_find_grep.txt
+git status
+git add .
+git status
+git commit
+git config --global user.email "nataliaa.latopolska67@gmail.com"
+git config --global user.name "natalia"
+git commit
+git pull
+git push
+mkdir wazne-sprawy
+rm wazne-sprawy/
+rm wazne-sprawy/ -r
+ls
+cd ..
+mkdir wazne-sprawy
+cd wazne-sprawy/
+touch rachunki.txt
+mkdir zrealizowane
+cp rachunki.txt zrealizowane/
+cd zrealizowane/
+ls
+cd ..
+cd zrealizowane/
+mv rachunki.txt zrealizowane.txt
+ls
+vim wykonano.txt
+split -b3 wykonano.txt 
+ls
+cat xaa
+rm x*
+ls
+split -b5 wykonano.txt 
+ls
+cd ~
+ls -a
+cat .bashrc 
+cat .bash_logout 
+echo $HISTFILE
+ls
+ls -a
+cat .bash_history
+cd /home/natalia/
+ls
+exit
+ls -a
+cat .bash_history
+ls
+cd wazne-sprawy/
+ls
+cd zrealizowane/
+ls
+cp xa* ~/Documents/
+ls
+cd ~/Documents/
+ls
+cat xa* > utworzono.txt
+ls
+cat utworzono.txt 
+cat xaa
+cp utworzono.txt ~/wazne-sprawy/
+cd ~/wazne-sprawy/
+ls
+cp utworzono.txt ./zrealizowane/
+cd zrealizowane/
+ls
+cat wykonano.txt 
+diff utworzono.txt wykonano.txt 
+vim utworzono.txt 
+diff utworzono.txt wykonano.txt 
+cal
+ca 2016
+cal 2016
+cal 10/2016
+cal 10 2016
+cal -3 10 2016
+cal 10  2021
+cal -2 10 2021
+cal -3 10 2021
+cd
+cat .bash_history
+exi
+exit
