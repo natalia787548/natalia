@@ -1,0 +1,10 @@
+find
+find ./ -maxdepth 1 -mtime -10 -ls
+find / -name "*conf*" -type f 
+find ./ -maxdepth 1 -atime +20 -ls
+find /etc -not -empty -name "a*"
+grep
+grep "." plik.txt
+grep -P "^\d" pl*
+grep "^.{8}r" *
+grep "bash" /etc/passwd 
